@@ -39,7 +39,7 @@ h1 {
     flex-wrap: wrap;
     align-items: center
 }
-.segunda-linha, .primeira-linha, .terceira-linha {
+.grafico_tres,.grafico_dois,.grafico_um {
     width:100%;
     max-width:500px;
     margin-top: 2%;
@@ -84,7 +84,7 @@ h1 {
         justify-content: center;
     }
     
-.segunda-linha,.primeira-linha,.terceira-linha {
+.grafico_tres,.grafico_dois,.grafico_um {
     width:100%;
     margin-top: 2%;
     margin-bottom: 1%;
