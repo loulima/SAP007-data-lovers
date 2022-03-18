@@ -1,12 +1,3 @@
-//1) Importar o arquivo dos dados dos personagens//
-// 2) Para cada opção de categoria de filtro, criar uma var para receber os valores -> usar o .filter//
-// ex:  var nomeDaOpcaoFiltro = varDosDados.filter (resultado =>resultado.nomedofiltro==="nomedofiltro")//
-// 3) Pegar o id dos elementos onde irao ficar os graficos no html//
-//4) Após pegar o ID. usar o newChats e escrever as configurações dos gráficos
-
-
-
-
 /* global Chart */
 import data from './data/rickandmorty/rickandmorty.js';
 
