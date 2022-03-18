@@ -1,21 +1,16 @@
-/* global Chart */
 import data from './data/rickandmorty/rickandmorty.js';
 
 const dados = data.results
 
 
-
-//Status
 const vivo = dados.filter(resultado => resultado.status === "Alive")
 const morto = dados.filter(resultado => resultado.status === "Dead")
 const desconhecido = dados.filter(resultado => resultado.status === "unknown")
 
-//Genero
 const masculino = dados.filter(resultado => resultado.gender === "Male")
 const feminino = dados.filter(resultado => resultado.gender === "Female")
 const indefinido = dados.filter(resultado => resultado.gender === "unknown")
 
-//Especie
 const alien = dados.filter(resultado => resultado.species === "Alien")
 const animal = dados.filter(resultado => resultado.species === "Animal")
 const cronenberg = dados.filter(resultado => resultado.species === "Cronenberg")
