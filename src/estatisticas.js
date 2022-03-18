@@ -1,30 +1,16 @@
-//1) Importar o arquivo dos dados dos personagens//
-// 2) Para cada opção de categoria de filtro, criar uma var para receber os valores -> usar o .filter//
-// ex:  var nomeDaOpcaoFiltro = varDosDados.filter (resultado =>resultado.nomedofiltro==="nomedofiltro")//
-// 3) Pegar o id dos elementos onde irao ficar os graficos no html//
-//4) Após pegar o ID. usar o newChats e escrever as configurações dos gráficos
-
-
-
-
-/* global Chart */
 import data from './data/rickandmorty/rickandmorty.js';
 
 const dados = data.results
 
 
-
-//Status
 const vivo = dados.filter(resultado => resultado.status === "Alive")
 const morto = dados.filter(resultado => resultado.status === "Dead")
 const desconhecido = dados.filter(resultado => resultado.status === "unknown")
 
-//Genero
 const masculino = dados.filter(resultado => resultado.gender === "Male")
 const feminino = dados.filter(resultado => resultado.gender === "Female")
 const indefinido = dados.filter(resultado => resultado.gender === "unknown")
 
-//Especie
 const alien = dados.filter(resultado => resultado.species === "Alien")
 const animal = dados.filter(resultado => resultado.species === "Animal")
 const cronenberg = dados.filter(resultado => resultado.species === "Cronenberg")

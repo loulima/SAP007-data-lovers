@@ -3,7 +3,6 @@ import {
 } from "./data.js";
 import data from "./data/rickandmorty/rickandmorty.js";
 
-///Imprimir Cards na tela///
 
 function imprimirCardsTela(data) {
 document.getElementById("infoCards").innerHTML = data.map(
@@ -29,7 +28,6 @@ document.getElementById("infoCards").innerHTML = data.map(
 }
 imprimirCardsTela(data.results);
 
-///Todos os querySelector juntos
 
 const selecaoGenero = document.querySelector("#gender-filter");
 const selecaoStatus = document.querySelector("#status-filter");
@@ -40,12 +38,9 @@ const porcentagem = document.getElementById("porcentagemFiltro");
 const searchName = document.getElementById("text-search");
 const btnLimpar = document.getElementById("btn_reset");
 
-///função para imprimir os filtros com a % 
-
-
 function imprimirPorcentagem(data) {
-    porcentagem.innerHTML = `Aqui possui ${data}`
-    porcentagem.style.display = 'inline-block'
+porcentagem.innerHTML = `Aqui possui ${data}`
+porcentagem.style.display = 'inline-block'
 }
 
 function imprimirFiltroGenero(e) {
@@ -69,7 +64,6 @@ imprimirPorcentagem(porcentagemStatus);
 return imprimirCardsTela(resultadoStatus);
 }
 
-
 function imprimirFiltroName(e) {
 const resultadoName = filtroName(data.results, e.target.value);
 return imprimirCardsTela(resultadoName);
@@ -80,13 +74,10 @@ const resultadoOrder = filtroOrder(data.results, e.target.value);
 return imprimirCardsTela(resultadoOrder);
 }
 
-
 function limparFiltros(){
 window.location.reload();
 }
 
-
-/// Por uma escuta pra quando mudar pro filtro 'x', imprimir os cards filtrados
 selecaoGenero.addEventListener("change", imprimirFiltroGenero);
 selecaoStatus.addEventListener("change", imprimirFiltroStatus);
 selecaoSpecies.addEventListener("change", imprimirFiltroSpecies);
