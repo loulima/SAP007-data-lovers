@@ -72,6 +72,8 @@ return imprimirCardsTela(resultadoStatus);
 
 function imprimirFiltroName(e) {
 const resultadoName = filtroName(data.results, e.target.value);
+const porcentagemName = `${calculoPorcentagem(data.results.length, resultadoName.length)}% dos personagens`
+imprimirPorcentagem(porcentagemName)
 return imprimirCardsTela(resultadoName);
 }
 
