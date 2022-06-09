@@ -21,7 +21,7 @@ O objetivo deste projeto é construir uma aplicação web que permita através d
 
 ## 2. Definições do Produto
 
-A aplicação foi pensada para atender a necessidade dos fãs da série, sejam eles fãs veteranos que desejam acessar informações adicionais sobre personagens ou novatos que querem conhecer mais sobre o universo de Rick and Morty. Para isso, foi pensado em filtros que auxiliem na busca por personagens: é possível localizar por nome,espécie,gênero, estado e ordenar os resultados em ordem alfabética.
+A aplicação foi pensada para atender a necessidade dos fãs da série, sejam eles fãs veteranos que desejam acessar informações adicionais sobre personagens ou novatos que querem conhecer mais sobre o universo de Rick and Morty. Para isso, foi pensado em filtros que auxiliem na busca por personagens: é possível localizar por nome, espécie, gênero, estado e ordenar os resultados em ordem alfabética.
 
 ### Histórias de Usuário
 <img src="https://raw.githubusercontent.com/MariaLuizaSantana/SAP007-data-lovers/main/src/img-readme/H.U%203.png" alt="project-screenshot" width="300" height="350/">
