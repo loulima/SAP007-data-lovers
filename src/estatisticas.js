@@ -2,7 +2,6 @@ import data from './data/rickandmorty/rickandmorty.js';
 
 const dados = data.results
 
-
 const vivo = dados.filter(resultado => resultado.status === "Alive")
 const morto = dados.filter(resultado => resultado.status === "Dead")
 const desconhecido = dados.filter(resultado => resultado.status === "unknown")

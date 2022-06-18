@@ -28,7 +28,6 @@ document.getElementById("infoCards").innerHTML = data.map(
 }
 imprimirCardsTela(data.results);
 
-
 const selecaoGenero = document.querySelector("#gender-filter");
 const selecaoStatus = document.querySelector("#status-filter");
 const selecaoSpecies = document.querySelector("#species-filter");
