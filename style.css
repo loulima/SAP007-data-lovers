@@ -163,7 +163,7 @@ main {
   float: right;
 }
 
-.back-to-top-link {
+.volta-topo-link {
   display: inline-block;
   position: fixed;
   pointer-events: all;
@@ -177,8 +177,7 @@ main {
   border-radius: 50%;
   padding: 0.25rem;
 }
-
-.back-to-top-wrapper {
+.volta-topo-caixa {
   position: absolute;
   right: 0.25rem;
   bottom: -5em;
@@ -241,7 +240,7 @@ option, .label{
   font-size: 15px;
 }
 
-  .back-to-top-wrapper {
+.volta-topo-caixa {
     right: 1.25rem;
   }
 
